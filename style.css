@@ -1,0 +1,23 @@
+body {
+  background-image: url('wallpaper.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+.folder {
+    font-family: Tahoma, Geneva, sans-serif;
+    width: 5vw;
+    
+}
+
+.folderCaption {
+    text-align: center;
+}
+
+
+
+.folderImage {
+    width: 5vw;
+    height: auto;
+}
