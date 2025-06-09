@@ -4,26 +4,51 @@
         <meta charset="utf-8">
         <title>Isabelle's Portfolio</title>
         <link rel="stylesheet" href="style.css">
+        <script src="script.js" defer></script>
     </head>
 
     <body>
         <div class="folders">
             <figure class="folder">
-                <img class="folderImage" src="folder.png" alt ="Folder Icon">
+                <button  class="folderButton" id="userButton">
+                    <img class="folderImage" src="folder.png" alt ="Folder Icon">
+                </button>
+                
                 <figcaption class="folderCaption">user</figcaption>
             </figure>
+
+            <div id="userPopup" class="popupBox">
+            </div>
+
             <figure class="folder">
-                <img class="folderImage" src="folder.png" alt ="Folder Icon">
+                <button  class="folderButton" id="arcadeButton">
+                    <img class="folderImage" src="folder.png" alt ="Folder Icon">
+                </button>
                 <figcaption class="folderCaption">arcade</figcaption>
             </figure>
+
+            <div id="arcadePopup" class="popupBox">
+            </div>
+
             <figure class="folder">
-                <img class="folderImage" src="folder.png" alt ="Folder Icon">
+                <button  class="folderButton" id="designButton">
+                    <img class="folderImage" src="folder.png" alt ="Folder Icon">
+                </button>
                 <figcaption class="folderCaption">design studio</figcaption>
             </figure>
+
+            <div id="designPopup" class="popupBox">
+            </div>
+
             <figure class="folder">
-                <img class="folderImage" src="folder.png" alt ="Folder Icon">
+                <button  class="folderButton" id="devButton">
+                    <img class="folderImage" src="folder.png" alt ="Folder Icon">
+                </button>
                 <figcaption class="folderCaption">dev lab</figcaption>
             </figure>
+
+            <div id="devPopup" class="popupBox">
+            </div>
         </div>
     </body>
 
