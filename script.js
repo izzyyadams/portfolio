@@ -5,16 +5,19 @@ var userPopup = document.getElementById("userPopup");
 var arcadePopup = document.getElementById("arcadePopup");
 var designPopup = document.getElementById("designPopup");
 var devPopup = document.getElementById("devPopup");
+var resumePopup = document.getElementById("resumePopup");
 
 var userButton = document.getElementById("userButton");
 var arcadeButton = document.getElementById("arcadeButton");
 var designButton = document.getElementById("designButton");
 var devButton = document.getElementById("devButton");
+var resumeButton = document.getElementById("resumeButton");
 
 var userClose = document.getElementById("userClose");
 var arcadeClose = document.getElementById("arcadeClose");
 var designClose = document.getElementById("designClose");
 var devClose = document.getElementById("devClose");
+var resumeClose = document.getElementById("resumeClose");
 
 userButton.ondblclick = function() {
     userPopup.style.display = "flex";
@@ -23,6 +26,15 @@ userButton.ondblclick = function() {
 }
 userClose.onclick = function () {
     userPopup.style.display = "none";
+}
+
+resumeButton.ondblclick = function() {
+    resumePopup.style.display = "flex";
+    zCount += 1;
+    resumePopup.style.zIndex = zCount;
+}
+resumeClose.onclick = function () {
+    resumePopup.style.display = "none";
 }
 
 arcadeButton.ondblclick = function () {
